@@ -114,3 +114,4 @@ Here's a suggested roadmap for building your MCP Personal Chatbot:
 - Implement user authentication in Django to allow users to securely connect their own GitHub accounts.
 - Prepare your application for deployment. Consider platforms like Heroku, AWS, or Google Cloud.
 - Thoroughly test the end-to-end functionality.
+- PythonAnyWhere, render
