@@ -27,7 +27,7 @@ Your application will be a robust, full-stack solution with a clear separation o
 ### Backend
 
 - **Django**: A high-level Python web framework that will handle user authentication, database management (for storing user information and chat history), and serve as the foundation for our MCP server.
-- **Model Context Protocol (MCP) with fastmcp**: The heart of our AI orchestration. MCP provides a standardized way for Large Language Models (LLMs) to interact with external tools and data. We will use fastmcp, a Pythonic library, to create MCP servers that expose our GitHub analysis functionalities as "tools" that the AI agents can utilize.
+- **Fastmcp**: The heart of our AI orchestration. MCP provides a standardized way for Large Language Models (LLMs) to interact with external tools and data. We will use fastmcp, a Pythonic library, to create MCP servers that expose our GitHub analysis functionalities as "tools" that the AI agents can utilize.
 - **django-mcp-server**: This package will be instrumental in seamlessly integrating our fastmcp tools within our Django project, allowing us to expose Django model querysets and custom methods as MCP tools.
 - **OpenAI Models**: We will leverage the power of models like GPT-3.5 Turbo or GPT-4 for their exceptional conversational abilities and reasoning skills. These models will act as the "brain" of our chatbot, understanding user queries and deciding which MCP tools to use.
 - **uv Package Manager**: For a modern and significantly faster development workflow, we will use uv to manage our Python dependencies and virtual environments.
